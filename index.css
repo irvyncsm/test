@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+
+body {
+  background-color: #1f2029;
+  font-family: "Poppins";    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh ;
+}
+
+button {
+  text-transform: uppercase;
+  outline: 0;
+  background: #FFFFFF;
+  width: 10%;
+  border: 0;
+  padding: 15px;
+  color: #1f2029;
+  font-size: 14px;
+  border-radius:15px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+button:hover,button:active,button:focus {
+  background: #2957d6;
+}
