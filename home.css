@@ -8,6 +8,15 @@ body {
   align-items: center;
   height:100vh ;
 }
+.form {
+  position: relative;
+  background: #FFFFFF;
+  max-width: 360px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius:15px;
+}
 
 .form button {
   text-transform: uppercase;
